@@ -1,0 +1,235 @@
+/*Styling Applied to All of the Webpage's Elements*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Determines the Webpage Background Colour*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Provides the style for the Webpage's Header*/
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Styles the Comapny's Title*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Styles the Company's Logo*/
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Styles the Navigation Bar*/
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Styles the Unordered List*/
+header nav u {
+    list-style-type: none;
+}
+
+/*Styles the List Elements in the Webage's Navigation Bar*/
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Styles the Webpage links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Styles the paragraph texts*/
+p {
+    font-size: 16px;
+}
+
+/*Styles the Hero Section and the Hero Image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Styles the Hero Section and the Hero Image*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Styles the Image in the Online Reputation Management Container */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Styles for the Search Engine Optimization, Online Reputation Management, and Social Media Marketing Section Container */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Styling for the Benefits Section Container */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Styling for the Lead Generation Container */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Styling for the Brand Awareness Container */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Styling for the Cost Management Container */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Styling for the Lead Generation Heading */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling for the Brand Awareness Heading */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling for the Cost Management Heading */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Styling for the Lead Generation Image */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Styling for the Brand Awareness Image */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Styling for the Cost Management Image */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Styles the Search Engine Optimization Container */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles the Online Reputation Manager */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styles the Social Media Marketing Container */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling for the Search Engine Optimization Container's Image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Styles the Online Reputation Management Container's Heading */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Styling for the Social Media Marketing Container's Heading */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Styles the Search Engine Optimization Container's Heading */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styles the Online Reputation Management Container's Heading */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styles the Social Media Marketing Container's Heading */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Styling for the Footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling for the the Footer's Heading */
+footer h2 {
+    font-size: 20px;
+}
